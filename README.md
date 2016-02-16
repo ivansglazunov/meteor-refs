@@ -4,7 +4,9 @@
 meteor add ivansglazunov:refs
 ```
 
-I recommend using with the package `ivansglazunov:trees`.
+References between documents in different collections.
+
+> I recommend using with the package `ivansglazunov:trees`.
 
 ## Schema
 
@@ -23,9 +25,12 @@ Refs.Schema
 
 ## Attach
 
+> You no longer need to do this manually!
+> Already attached to all the collections!
+
 ```js
-var Collection = new Mongo.Collection('collection');
-Collection.attachRefs();
+// var Collection = new Mongo.Collection('collection');
+// Collection.attachRefs();
 ```
 
 ## Documents
@@ -49,6 +54,9 @@ a.Ref('other.field'); // { 'other.field.id': 'a', 'other.field.collection': 'col
 ```
 
 ## Versions
+
+### 0.1.0
+* Automatically attached to all collections.
 
 ### 0.0.1
 * Added prefix to `document.Ref`

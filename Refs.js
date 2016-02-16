@@ -26,3 +26,7 @@ Refs.Schema = new SimpleSchema({
     type: String
   }
 });
+
+CollectionExtensions.addExtension(function (name, options) {
+  this.attachRefs();
+});

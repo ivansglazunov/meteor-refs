@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ivansglazunov:refs',
-  version: '0.0.1',
+  version: '0.1.0',
   summary: 'Object alternative DBRef.',
   git: 'https://github.com/ivansglazunov/meteor-refs',
   documentation: 'README.md'
@@ -14,6 +14,7 @@ Package.onUse(function(api) {
   api.use('dburles:collection-helpers@1.0.4');
   api.use('stevezhu:lodash@4.0.0');
   api.use('dburles:mongo-collection-instances@0.3.4');
+  api.use('lai:collection-extensions@0.2.1');
   api.use('ecmascript');
   api.addFiles('Refs.js');
   api.export('Refs');
