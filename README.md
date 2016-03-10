@@ -1,12 +1,16 @@
-# Refs
+# ~~Refs~~ DEPRECATED
+
+References between documents in different collections.
 
 ```
 meteor add ivansglazunov:refs
 ```
 
-References between documents in different collections.
+---
 
-> I recommend using with the package `ivansglazunov:trees`.
+New version of refs: [shuttler:ref](https://github.com/meteor-shuttler/ref).
+
+---
 
 ## Schema
 

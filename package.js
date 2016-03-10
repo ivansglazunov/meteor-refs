@@ -1,7 +1,7 @@
 Package.describe({
   name: 'ivansglazunov:refs',
-  version: '0.1.0',
-  summary: 'Object alternative DBRef.',
+  version: '0.1.1',
+  summary: 'DEPRECATED',
   git: 'https://github.com/ivansglazunov/meteor-refs',
   documentation: 'README.md'
 });
